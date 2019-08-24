@@ -1,0 +1,84 @@
+.left{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 1500px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.left-head{
+    position: relative;
+    top: 40px;
+    width:90%;
+    height: 320px;
+}
+.left-head h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+.left-head h2{
+    color: darkgray;
+    font-size: 20px;
+}
+.left-body{
+    position: relative;
+    background-color: #464547;
+    width: 100%;
+    height: 400px;
+}
+.left-body ul{
+    width: 100%;
+    list-style-type:none;
+}
+.left-body ul a{
+    color: white;
+    text-decoration: none;
+}
+.left-body ul a:hover{
+    color: Gray;
+}
+.left-body ul li{
+    position: relative;
+    top: 5px;
+    left: -40px;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 0 0px 3px;
+}
+.left-body ul li span{
+    position: absolute;
+    left: 10px;
+}
+.left-body ul li p{
+    position: absolute;
+    left: 45px;
+}
+
+.right{
+    position: absolute;
+    left: 250px;
+    width: 80%;
+    height: auto;
+}
+.right-body{
+    position: absolute;
+    top: 70px;
+    width: 70%;
+}
+.right-item{
+    position: relative;
+    left: 10%;
+}
+.right-item h1::after {
+	content: "";
+	display: block;
+    background: linear-gradient(to right, #188eee, #999);
+    width:270px;
+    height: 1px;
+}
+.right-item h4{
+    font-size: 18px;
+}
